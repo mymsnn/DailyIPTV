@@ -16,7 +16,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GT_IPTV }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -34,13 +34,12 @@ jobs:
         
     - name: Run update script
       run: |
-        cd scripts
-        python update_sources.py
+        python scripts/update_sources.py
         
     - name: Commit and push changes
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add outputs/ logs/ scripts/sources_list.json
+        git add outputs/ logs/
         git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
         git push
