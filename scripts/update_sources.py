@@ -17,124 +17,81 @@ class IPTVUpdater:
         })
         self.all_channels = []
         self.log_messages = []
+        self.repository_owner = os.environ.get('GITHUB_REPOSITORY_OWNER', '你的用户名')
+        self.repository_name = os.environ.get('GITHUB_REPOSITORY', 'DailyIPTV').split('/')[-1]
         
     def log(self, message):
         timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         log_message = f"[{timestamp}] {message}"
         print(log_message)
         self.log_messages.append(log_message)
-        
-    def load_sources(self):
-        """加载源列表"""
+    
+    def update_readme(self, stats):
+        """更新README文件，添加直播源地址"""
         try:
-            with open('scripts/sources_list.json', 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            self.log(f"加载源列表失败: {e}")
-            return {"sources": [], "backup_sources": []}
-    
-    def fetch_source(self, url, timeout=15):
-        """获取单个源"""
-        try:
-            self.log(f"正在获取: {url}")
-            response = self.session.get(url, timeout=timeout)
-            response.encoding = 'utf-8'
-            if response.status_code == 200:
-                return response.text
-            else:
-                self.log(f"获取失败，状态码: {response.status_code}")
-                return None
-        except Exception as e:
-            self.log(f"获取异常: {e}")
-            return None
-    
-    def parse_m3u(self, content, source_url):
-        """解析M3U内容"""
-        channels = []
-        current_channel = {}
-        lines = content.splitlines()
-        
-        for i, line in enumerate(lines):
-            line = line.strip()
-            if not line:
-                continue
-                
-            if line.startswith('#EXTINF'):
-                # 解析频道信息
-                current_channel = {'raw_extinf': line}
-                # 提取频道名称
-                name_match = re.search(r',(?P<name>.*)$', line)
-                if name_match:
-                    current_channel['name'] = name_match.group('name').strip()
-                else:
-                    current_channel['name'] = f"Unknown_{i}"
-                    
-            elif line.startswith('http://') or line.startswith('https://') or line.startswith('rtsp://') or line.startswith('rtmp://'):
-                if current_channel:
-                    current_channel['url'] = line
-                    current_channel['source'] = source_url
-                    channels.append(current_channel)
-                    current_channel = {}
-        
-        self.log(f"从该源解析出 {len(channels)} 个频道")
-        return channels
-    
-    def is_url_accessible(self, url, timeout=8):
-        """检查URL是否可访问"""
-        try:
-            # 只发送HEAD请求检查，节省时间和带宽
-            response = requests.head(url, timeout=timeout, allow_redirects=True)
-            return response.status_code in [200, 302, 301]
-        except:
-            try:
-                # 如果HEAD失败，尝试GET但只读取头信息
-                response = requests.get(url, timeout=timeout, stream=True)
-                return response.status_code == 200
-            except:
-                return False
-    
-    def categorize_channel(self, channel_name):
-        """分类频道"""
-        name_lower = channel_name.lower()
-        
-        # 央视分类
-        cctv_keywords = ['cctv', '央视', '中央']
-        if any(keyword in name_lower for keyword in cctv_keywords):
-            return 'cctv'
-        
-        # 卫视分类
-        satellite_keywords = ['卫视', 'tvb', '凤凰', '星空', '湖南', '浙江', '江苏', '东方', '北京']
-        if any(keyword in name_lower for keyword in satellite_keywords):
-            return 'satellite'
-        
-        # 地方台分类
-        local_keywords = ['都市', '新闻', '民生', '公共', '教育', '少儿', '体育', '影视', '综艺']
-        if any(keyword in name_lower for keyword in local_keywords):
-            return 'local'
-        
-        # 国际频道
-        international_keywords = ['bbc', 'cnn', 'nhk', 'fox', 'hbo', 'disney', 'discovery', '国家地理']
-        if any(keyword in name_lower for keyword in international_keywords):
-            return 'international'
-        
-        return 'other'
-    
-    def generate_m3u_content(self, channels):
-        """生成M3U内容"""
-        header = f"""#EXTM3U
-#EXTENC: UTF-8
-# Generated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}
-# Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-# Sources: {len(self.sources_config['sources'])} primary, {len(self.sources_config['backup_sources'])} backup
-# Total Channels: {len(channels)}
-# For personal testing and research purposes only.
+            # 读取现有的README内容
+            with open('README.md', 'r', encoding='utf-8') as f:
+                readme_content = f.read()
+            
+            # 生成直播源地址部分
+            base_url = f"https://raw.githubusercontent.com/{self.repository_owner}/{self.repository_name}/main/outputs"
+            update_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            
+            live_sources_section = f"""
+## 📡 直播源地址
+
+以下是最新的直播源地址（最后更新: {update_time}）：
+
+### 🌐 完整列表
+- **M3U格式**: [{base_url}/full.m3u]({base_url}/full.m3u)
+- 频道总数: {stats['total_channels']} 个
+- 估计有效频道: {stats['estimated_valid_channels']} 个
+- 有效性比例: {stats['validity_ratio']:.2%}
+
+### 📺 分类列表
+- **央视频道**: [{base_url}/cctv.m3u]({base_url}/cctv.m3u) ({stats['categories']['cctv']} 个频道)
+- **卫视频道**: [{base_url}/satellite.m3u]({base_url}/satellite.m3u) ({stats['categories']['satellite']} 个频道)
+- **地方台**: [{base_url}/local.m3u]({base_url}/local.m3u) ({stats['categories']['local']} 个频道)
+- **国际频道**: [{base_url}/international.m3u]({base_url}/international.m3u) ({stats['categories']['international']} 个频道)
+- **其他频道**: [{base_url}/other.m3u]({base_url}/other.m3u) ({stats['categories']['other']} 个频道)
+
+### 📊 统计信息
+- **更新耗时**: {stats['duration_seconds']} 秒
+- **源尝试数**: {stats['sources_attempted']} 个
+- **成功源数**: {stats['sources_successful']} 个
+- **更新时间**: {stats['update_time']}
+
+### 🚀 快速使用
+在支持M3U的播放器（VLC、PotPlayer、Kodi等）中：
+1. 打开"打开网络流"
+2. 粘贴上述任意链接
+3. 享受直播！
+
+---
 
 """
-        content = header
-        for channel in channels:
-            content += f"{channel['raw_extinf']}\n{channel['url']}\n"
-        
-        return content
+            
+            # 检查是否已经有直播源地址部分，如果有则替换，如果没有则添加
+            if '## 📡 直播源地址' in readme_content:
+                # 替换现有的直播源部分
+                pattern = r'## 📡 直播源地址.*?---'
+                updated_readme = re.sub(pattern, live_sources_section.strip(), readme_content, flags=re.DOTALL)
+            else:
+                # 在文件开头添加直播源部分
+                updated_readme = readme_content.replace('# DailyIPTV 📺', f'# DailyIPTV 📺\n{live_sources_section}')
+            
+            # 写入更新后的README
+            with open('README.md', 'w', encoding='utf-8') as f:
+                f.write(updated_readme)
+            
+            self.log("README文件更新成功！")
+            return True
+            
+        except Exception as e:
+            self.log(f"更新README文件失败: {e}")
+            return False
+
+    # 其他方法保持不变（load_sources, fetch_source, parse_m3u, is_url_accessible, categorize_channel, generate_m3u_content）
     
     def run(self):
         """主运行函数"""
@@ -231,6 +188,9 @@ class IPTVUpdater:
         
         with open('outputs/stats.json', 'w', encoding='utf-8') as f:
             json.dump(stats, f, ensure_ascii=False, indent=2)
+        
+        # 更新README文件
+        self.update_readme(stats)
         
         self.log(f"=== 更新完成！耗时: {duration:.2f}秒 ===")
         self.log(f"统计信息: {stats}")
