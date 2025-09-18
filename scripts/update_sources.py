@@ -258,7 +258,15 @@ class IPTVUpdater:
         # 假设验证通过的频道比例代表整体
         validity_ratio = len(valid_channels) / sample_size if sample_size > 0 else 0
         estimated_valid_count = int(len(unique_channels_list) * validity_ratio)
-        self.log(f"有效性抽样比例: {stats['validity_ratio']:.2%}, 估计有效频道: {stats['estimated_valid_channels']}")
+        if 'stats' in locals():
+    self.log(
+        f"有效性抽样比例: {stats['validity_ratio']:.2%}, "
+        f"估计有效频道: {stats['estimated_valid_channels']}"
+    )
+else:
+    self.log("跳过有效性统计，因为没有生成 stats（可能所有源都失败或提前退出）")
+    return
+
         
         # 分类频道
         categorized_channels = {'cctv': [], 'satellite': [], 'local': [], 'international': [], 'other': []}
