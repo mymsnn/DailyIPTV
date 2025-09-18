@@ -8,6 +8,5 @@
     ],
     "backup_sources": [
         "https://gitlab.com/iptv-org/iptv/-/raw/master/index.m3u",
-        "http://example.com/backup1.m3u"
     ]
 }
