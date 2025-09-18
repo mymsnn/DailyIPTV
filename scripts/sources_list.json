@@ -1,6 +1,5 @@
 {
     "sources": [
-        "http://cdn.qiaoji8.com/tvbox.json",
         "https://zbds.org/tv/iptv4.m3u"
     ],
     "backup_sources": [
