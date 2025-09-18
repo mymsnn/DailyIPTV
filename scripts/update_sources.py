@@ -150,6 +150,35 @@ class IPTVUpdater:
             update_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             
             live_sources_section = f"""
+        # 在第261行之前添加 stats 变量的定义
+# 确保在所有可能的分支中都定义了 stats 变量
+
+# 在开始处理源之前初始化 stats
+stats = {
+    'validity_ratio': 0,
+    'estimated_valid_channels': 0
+}
+
+try:
+    # 处理源的代码...
+    
+    # 如果成功处理了频道，更新 stats
+    if channels:  # 确保有频道数据
+        validity_ratio = valid_count / sample_size if sample_size > 0 else 0
+        estimated_valid = int(len(all_channels) * validity_ratio) if validity_ratio > 0 else 0
+        
+        stats = {
+            'validity_ratio': validity_ratio,
+            'estimated_valid_channels': estimated_valid
+        }
+    
+except Exception as e:
+    self.log(f"处理过程中发生错误: {str(e)}")
+    # 保持默认的 stats 值
+
+# 然后使用 stats
+self.log(f"有效性抽样比例: {stats['validity_ratio']:.2%}, 估计有效频道: {stats['estimated_valid_channels']}")
+
 ## 📡 直播源地址
 
 以下是最新的直播源地址（最后更新: {update_time}）：
