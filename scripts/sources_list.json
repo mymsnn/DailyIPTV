@@ -9,7 +9,7 @@
         "https://ym.wya6.cn/",
         "http://pandown.pro/tvbox/tvbox.json",
         "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
-    ],
+    ]
     "backup_sources": [
         "https://gitlab.com/iptv-org/iptv/-/raw/master/index.m3u",
         "http://example.com/backup1.m3u"
