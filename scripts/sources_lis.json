@@ -4,6 +4,11 @@
         "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/global.m3u",
         "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u",
         "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u"
+        "https://zbds.org/tv/iptv4.m3u"
+        "http://cdn.qiaoji8.com/tvbox.json"
+        "https://ym.wya6.cn/"
+        "http://pandown.pro/tvbox/tvbox.json"
+        "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json"
     ],
     "backup_sources": [
         "https://gitlab.com/iptv-org/iptv/-/raw/master/index.m3u",
