@@ -2,6 +2,7 @@
     "sources": [
         "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u",
         "https://mirror.ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+        "http://年年幸福.icu/年年有余/gfdc.json",
         "https://zbds.org/tv/iptv4.m3u"
     ],
     "backup_sources": [
