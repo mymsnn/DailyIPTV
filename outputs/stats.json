@@ -1,0 +1,16 @@
+{
+  "update_time": "2025-09-18T13:34:10.093954",
+  "duration_seconds": 0.0,
+  "sources_attempted": 0,
+  "sources_successful": 0,
+  "total_channels": 0,
+  "estimated_valid_channels": 0,
+  "validity_ratio": 0,
+  "categories": {
+    "cctv": 0,
+    "satellite": 0,
+    "local": 0,
+    "international": 0,
+    "other": 0
+  }
+}
