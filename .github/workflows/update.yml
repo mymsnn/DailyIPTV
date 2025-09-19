@@ -2,8 +2,8 @@ name: Update IPTV Sources
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天UTC时间0点运行
-  workflow_dispatch:       # 允许手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-sources:
@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
       
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -28,13 +30,12 @@ jobs:
       run: python scripts/update_vod_sources.py
       
     - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add outputs/ logs/ README.md
-        git commit -m "Auto-update IPTV sources - $(date)"
-        git push        python scripts/update_sources.py
-        
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Auto-update IPTV sources
+        file_pattern: outputs/* logs/* README.md
+        commit_user_name: GitHub Action
+        commit_user_email: action@github.com        
     - name: Commit and push changes
       run: |
         git config --local user.name "github-actions[bot]"
