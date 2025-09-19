@@ -30,16 +30,26 @@ jobs:
       run: python scripts/update_vod_sources.py
       
     - name: Commit and push changes
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: Auto-update IPTV sources
-        file_pattern: outputs/* logs/* README.md
-        commit_user_name: GitHub Action
-        commit_user_email: action@github.com        
-    - name: Commit and push changes
       run: |
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add outputs/ logs/
-        git commit -m "Auto-update: $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
-        git push
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # 确保 logs 目录存在，即使为空
+        mkdir -p logs
+        
+        # 添加具体的文件，而不是使用通配符
+        git add outputs/
+        git add README.md
+        
+        # 只添加 logs 目录中实际存在的文件
+        if [ -n "$(ls -A logs 2>/dev/null)" ]; then
+          git add logs/
+        fi
+        
+        # 检查是否有变更需要提交
+        if git diff --staged --quiet; then
+          echo "没有文件需要提交"
+        else
+          git commit -m "Auto-update IPTV sources - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
