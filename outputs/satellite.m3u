@@ -1,11 +1,43 @@
 #EXTM3U
 #EXTENC: UTF-8
-# Generated: 2025-09-18 16:56:09 UTC
-# Updated: 2025-09-18 16:56:09
+# Generated: 2025-09-19 01:22:52 UTC
+# Updated: 2025-09-19 01:22:52
 # Sources: 1 primary, 1 backup
-# Total Channels: 83
+# Total Channels: 99
 # For personal testing and research purposes only.
 
+#EXTINF:-1 tvg-name="安徽卫视" tvg-id="安徽卫视" tvg-logo="https://livecdn.zbds.org/logo/安徽卫视.png" group-title="央视频道", 安徽卫视
+http://iptv.huuc.edu.cn/hls/ahhd.m3u8
+#EXTINF:-1 tvg-name="北京卫视" tvg-id="北京卫视" tvg-logo="https://livecdn.zbds.org/logo/北京卫视.png" group-title="央视频道", 北京卫视
+http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-id="东方卫视" tvg-logo="https://livecdn.zbds.org/logo/东方卫视.png" group-title="央视频道", 东方卫视
+http://iptv.huuc.edu.cn/hls/dfhd.m3u8
+#EXTINF:-1 tvg-name="东南卫视" tvg-id="东南卫视" tvg-logo="https://livecdn.zbds.org/logo/东南卫视.png" group-title="央视频道", 东南卫视
+http://iptv.huuc.edu.cn/hls/dnhd.m3u8
+#EXTINF:-1 tvg-name="湖北卫视" tvg-id="湖北卫视" tvg-logo="https://livecdn.zbds.org/logo/湖北卫视.png" group-title="央视频道", 湖北卫视
+http://iptv.huuc.edu.cn/hls/hbhd.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" tvg-id="湖南卫视" tvg-logo="https://livecdn.zbds.org/logo/湖南卫视.png" group-title="央视频道", 湖南卫视
+http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-id="江苏卫视" tvg-logo="https://livecdn.zbds.org/logo/江苏卫视.png" group-title="央视频道", 江苏卫视
+http://iptv.huuc.edu.cn/hls/jshd.m3u8
+#EXTINF:-1 tvg-name="江西卫视" tvg-id="江西卫视" tvg-logo="https://livecdn.zbds.org/logo/江西卫视.png" group-title="央视频道", 江西卫视
+http://iptv.huuc.edu.cn/hls/jxhd.m3u8
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-id="辽宁卫视" tvg-logo="https://livecdn.zbds.org/logo/辽宁卫视.png" group-title="央视频道", 辽宁卫视
+http://iptv.huuc.edu.cn/hls/lnhd.m3u8
+#EXTINF:-1 tvg-name="山东卫视" tvg-id="山东卫视" tvg-logo="https://livecdn.zbds.org/logo/山东卫视.png" group-title="央视频道", 山东卫视
+http://iptv.huuc.edu.cn/hls/sdhd.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" tvg-id="深圳卫视" tvg-logo="https://livecdn.zbds.org/logo/深圳卫视.png" group-title="央视频道", 深圳卫视
+http://iptv.huuc.edu.cn/hls/szhd.m3u8
+#EXTINF:-1 tvg-name="四川卫视" tvg-id="四川卫视" tvg-logo="https://livecdn.zbds.org/logo/四川卫视.png" group-title="央视频道", 四川卫视
+http://iptv.huuc.edu.cn/hls/schd.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-id="浙江卫视" tvg-logo="https://livecdn.zbds.org/logo/浙江卫视.png" group-title="央视频道", 浙江卫视
+http://iptv.huuc.edu.cn/hls/zjhd.m3u8
+#EXTINF:-1 tvg-name="重庆卫视" tvg-id="重庆卫视" tvg-logo="https://livecdn.zbds.org/logo/重庆卫视.png" group-title="央视频道", 重庆卫视
+http://iptv.huuc.edu.cn/hls/cqhd.m3u8
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-id="黑龙江卫视" tvg-logo="https://livecdn.zbds.org/logo/黑龙江卫视.png" group-title="央视频道", 黑龙江卫视
+http://iptv.huuc.edu.cn/hls/hljhd.m3u8
+#EXTINF:-1 tvg-name="北京新闻" tvg-id="北京新闻" tvg-logo="https://livecdn.zbds.org/logo/北京新闻.png" group-title="央视频道", 北京新闻
+http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-id="安徽卫视" tvg-logo="https://livecdn.zbds.org/logo/安徽卫视.png" group-title="卫视频道", 安徽卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873469.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-id="北京卫视" tvg-logo="https://livecdn.zbds.org/logo/北京卫视.png" group-title="卫视频道", 北京卫视
@@ -28,14 +60,14 @@ http://dsj.motem.top:8880/bptv/10000100000000050000000003873471.m3u8
 http://dsj.motem.top:8880/bptv/10000100000000050000000004796877.m3u8
 #EXTINF:-1 tvg-name="海峡卫视" tvg-id="3" tvg-logo="https://livecdn.zbds.org/logo/海峡卫视.png" group-title="卫视频道", 海峡卫视
 http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
-#EXTINF:-1 tvg-name="河北卫视" tvg-id="98" tvg-logo="https://livecdn.zbds.org/logo/河北卫视.png" group-title="卫视频道", 河北卫视
-http://39.164.160.249:9901/tsfile/live/0117_1.m3u8
+#EXTINF:-1 tvg-name="河北卫视" tvg-id="河北卫视" tvg-logo="https://livecdn.zbds.org/logo/河北卫视.png" group-title="卫视频道", 河北卫视
+http://dsj.motem.top:8880/bptv/10000100000000050000000003873460.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-id="104" tvg-logo="https://livecdn.zbds.org/logo/河南卫视.png" group-title="卫视频道", 河南卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887270.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-id="湖北卫视" tvg-logo="https://livecdn.zbds.org/logo/湖北卫视.png" group-title="卫视频道", 湖北卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873465.m3u8
-#EXTINF:-1 tvg-name="湖南卫视" tvg-id="湖南卫视" tvg-logo="https://livecdn.zbds.org/logo/湖南卫视.png" group-title="卫视频道", 湖南卫视
-http://dsj.motem.top:8880/bptv/10000100000000050000000003873458.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" tvg-id="149" tvg-logo="https://livecdn.zbds.org/logo/湖南卫视.png" group-title="卫视频道", 湖南卫视
+http://58.57.40.22:9901/tsfile/live/1028_1.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-id="吉林卫视" tvg-logo="https://livecdn.zbds.org/logo/吉林卫视.png" group-title="卫视频道", 吉林卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000004972569.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" tvg-id="江苏卫视" tvg-logo="https://livecdn.zbds.org/logo/江苏卫视.png" group-title="卫视频道", 江苏卫视
@@ -70,22 +102,22 @@ http://dsj.motem.top:8880/bptv/10000100000000050000000003887274.m3u8
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873466.m3u8
 #EXTINF:-1 tvg-name="西藏卫视" tvg-id="西藏卫视" tvg-logo="https://livecdn.zbds.org/logo/西藏卫视.png" group-title="卫视频道", 西藏卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887434.m3u8
-#EXTINF:-1 tvg-name="新疆卫视" tvg-id="17" tvg-logo="https://livecdn.zbds.org/logo/新疆卫视.png" group-title="卫视频道", 新疆卫视
-http://39.164.160.249:9901/tsfile/live/0110_1.m3u8
+#EXTINF:-1 tvg-name="新疆卫视" tvg-id="新疆卫视" tvg-logo="https://livecdn.zbds.org/logo/新疆卫视.png" group-title="卫视频道", 新疆卫视
+http://dsj.motem.top:8880/bptv/10000100000000050000000003887448.m3u8
 #EXTINF:-1 tvg-name="延边卫视" tvg-id="延边卫视" tvg-logo="https://livecdn.zbds.org/logo/延边卫视.png" group-title="卫视频道", 延边卫视
 http://120.76.248.139/live/bfgd/4200000117.m3u8
 #EXTINF:-1 tvg-name="云南卫视" tvg-id="云南卫视" tvg-logo="https://livecdn.zbds.org/logo/云南卫视.png" group-title="卫视频道", 云南卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003887453.m3u8
-#EXTINF:-1 tvg-name="浙江卫视" tvg-id="290" tvg-logo="https://livecdn.zbds.org/logo/浙江卫视.png" group-title="卫视频道", 浙江卫视
-http://223.105.252.8/PLTV/4/224/3221228147/index.m3u8
-#EXTINF:-1 tvg-name="重庆卫视" tvg-id="42" tvg-logo="https://livecdn.zbds.org/logo/重庆卫视.png" group-title="卫视频道", 重庆卫视
-http://36.32.174.67:60080/newlive/live/hls/34/live.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-id="158" tvg-logo="https://livecdn.zbds.org/logo/浙江卫视.png" group-title="卫视频道", 浙江卫视
+http://58.57.40.22:9901/tsfile/live/1029_1.m3u8
+#EXTINF:-1 tvg-name="重庆卫视" tvg-id="重庆卫视" tvg-logo="https://livecdn.zbds.org/logo/重庆卫视.png" group-title="卫视频道", 重庆卫视
+http://dsj.motem.top:8880/bptv/10000100000000050000000004796458.m3u8
 #EXTINF:-1 tvg-name="安多卫视" tvg-id="安多卫视" tvg-logo="https://livecdn.zbds.org/logo/安多卫视.png" group-title="卫视频道", 安多卫视
 https://liveout.xntv.tv/a65jur/96iln2.m3u8
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-id="黑龙江卫视" tvg-logo="https://livecdn.zbds.org/logo/黑龙江卫视.png" group-title="卫视频道", 黑龙江卫视
 http://dsj.motem.top:8880/bptv/10000100000000050000000003873470.m3u8
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-id="内蒙古卫视" tvg-logo="https://livecdn.zbds.org/logo/内蒙古卫视.png" group-title="卫视频道", 内蒙古卫视
-http://120.76.248.139/live/bfgd/4200000110.m3u8
+http://dsj.motem.top:8880/bptv/10000100000000050000000003887427.m3u8
 #EXTINF:-1 tvg-name="内蒙古蒙语卫视" tvg-id="内蒙古蒙语卫视" tvg-logo="https://livecdn.zbds.org/logo/内蒙古蒙语卫视.png" group-title="卫视频道", 内蒙古蒙语卫视
 http://play1-qk.nmtv.cn/live/1686560387346365.m3u8
 #EXTINF:-1 tvg-name="香港卫视" tvg-id="香港卫视" tvg-logo="https://livecdn.zbds.org/logo/香港卫视.png" group-title="卫视频道", 香港卫视
