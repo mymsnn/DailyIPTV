@@ -1,6 +1,7 @@
 {
     "sources": [
-        "https://zbds.org/tv/iptv4.m3u"
+        "https://zbds.org/tv/iptv4.m3u",
+         "https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u"
     ],
     "backup_sources": [
         "https://gitlab.com/iptv-org/iptv/-/raw/master/index.m3u"
