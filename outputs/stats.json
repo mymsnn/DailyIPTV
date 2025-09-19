@@ -1,16 +1,16 @@
 {
-  "update_time": "2025-09-19 06:44:42",
-  "duration_seconds": 135.19,
+  "update_time": "2025-09-19 11:45:28",
+  "duration_seconds": 140.96,
   "sources_attempted": 6,
   "sources_successful": 5,
-  "total_channels": 1885,
-  "estimated_valid_channels": 169,
+  "total_channels": 1396,
+  "estimated_valid_channels": 125,
   "validity_ratio": 0.09,
   "categories": {
-    "cctv": 213,
-    "satellite": 385,
-    "local": 319,
+    "cctv": 207,
+    "satellite": 318,
+    "local": 188,
     "international": 5,
-    "other": 963
+    "other": 678
   }
 }
