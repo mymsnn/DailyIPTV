@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTENC: UTF-8
-# Generated: 2025-10-18 01:17:05 UTC
-# Updated: 2025-10-18 01:17:05
+# Generated: 2025-10-19 01:28:05 UTC
+# Updated: 2025-10-19 01:28:05
 # Title: cctv频道
 # Total Channels: 56
 # For personal testing only.
@@ -24,30 +24,30 @@ http://ygbh.site/php/bfgd.php?id=065
 http://ygbh.site/php/bfgd.php?id=127
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV8.png" group-title="央视高清备用",CCTV8
 http://ygbh.site/php/bfgd.php?id=066
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV9.png" group-title="央视高清备用",CCTV9
-http://ygbh.site/php/bfgd.php?id=128
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV11.png" group-title="央视高清备用",CCTV11
+http://ygbh.site/php/bfgd.php?id=130
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV10.png" group-title="央视高清备用",CCTV10
 http://ygbh.site/php/bfgd.php?id=129
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV9.png" group-title="央视高清备用",CCTV9
+http://ygbh.site/php/bfgd.php?id=128
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV12.png" group-title="央视高清备用",CCTV12
 http://ygbh.site/php/bfgd.php?id=131
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV13.png" group-title="央视高清备用",CCTV13
 http://ygbh.site/php/bfgd.php?id=067
-#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV11.png" group-title="央视高清备用",CCTV11
-http://ygbh.site/php/bfgd.php?id=130
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV17.png" group-title="央视高清备用",CCTV17
+http://ygbh.site/php/bfgd.php?id=204
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV14.png" group-title="央视高清备用",CCTV14
 http://ygbh.site/php/bfgd.php?id=132
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV15.png" group-title="央视高清备用",CCTV15
 http://ygbh.site/php/bfgd.php?id=133
-#EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV17.png" group-title="央视高清备用",CCTV17
-http://ygbh.site/php/bfgd.php?id=204
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV1.png" group-title="备用频道",CCTV1
-http://112.27.235.94:8000/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV2.png" group-title="备用频道",CCTV2
 http://112.27.235.94:8000/hls/2/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV4.png" group-title="备用频道",CCTV4
 http://112.27.235.94:8000/hls/4/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV5.png" group-title="备用频道",CCTV5
 http://112.27.235.94:8000/hls/5/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV1.png" group-title="备用频道",CCTV1
+http://112.27.235.94:8000/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV3.png" group-title="备用频道",CCTV3
 http://112.27.235.94:8000/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV5+.png" group-title="备用频道",CCTV5+
@@ -56,10 +56,10 @@ http://112.27.235.94:8000/hls/6/index.m3u8
 http://112.27.235.94:8000/hls/7/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV7.png" group-title="备用频道",CCTV7
 http://112.27.235.94:8000/hls/8/index.m3u8
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV9.png" group-title="备用频道",CCTV9
-http://112.27.235.94:8000/hls/10/index.m3u8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV8.png" group-title="备用频道",CCTV8
 http://112.27.235.94:8000/hls/9/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV9.png" group-title="备用频道",CCTV9
+http://112.27.235.94:8000/hls/10/index.m3u8
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV10.png" group-title="备用频道",CCTV10
 http://112.27.235.94:8000/hls/11/index.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV11.png" group-title="备用频道",CCTV11
@@ -84,10 +84,10 @@ http://58.57.40.22:9901/tsfile/live/1001_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1002_1.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-id="240" tvg-logo="https://tb.zbds.top/logo/CCTV4.png" group-title="央视频道", CCTV4
 http://58.57.40.22:9901/tsfile/live/1003_1.m3u8
-#EXTINF:-1 tvg-name="CCTV5" tvg-id="253" tvg-logo="https://tb.zbds.top/logo/CCTV5.png" group-title="央视频道", CCTV5
-http://58.57.40.22:9901/tsfile/live/1004_1.m3u8
 #EXTINF:-1 tvg-name="CCTV5+" tvg-id="115" tvg-logo="https://tb.zbds.top/logo/CCTV5+.png" group-title="央视频道", CCTV5+
 http://58.57.40.22:9901/tsfile/live/1005_1.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-id="253" tvg-logo="https://tb.zbds.top/logo/CCTV5.png" group-title="央视频道", CCTV5
+http://58.57.40.22:9901/tsfile/live/1004_1.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-id="215" tvg-logo="https://tb.zbds.top/logo/CCTV6.png" group-title="央视频道", CCTV6
 http://58.57.40.22:9901/tsfile/live/1006_1.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-id="220" tvg-logo="https://tb.zbds.top/logo/CCTV7.png" group-title="央视频道", CCTV7
@@ -106,15 +106,15 @@ http://58.57.40.22:9901/tsfile/live/1012_1.m3u8
 http://58.57.40.22:9901/tsfile/live/1013_1.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-id="218" tvg-logo="https://tb.zbds.top/logo/CCTV14.png" group-title="央视频道", CCTV14
 http://58.57.40.22:9901/tsfile/live/1014_1.m3u8
-#EXTINF:-1 tvg-name="CCTV央视台球" tvg-id="CCTV央视台球" tvg-logo="https://tb.zbds.top/logo/CCTV央视台球.png" group-title="央视频道", CCTV央视台球
-https://epg.pw/stream/25677ac2e8c1f7c3dd6359c43eb5f0f54efb3f5c11f9dda18d01b3e0308ed017.m3u8
-#EXTINF:-1 tvg-name="CCTV第一剧场" tvg-id="CCTV第一剧场" tvg-logo="https://tb.zbds.top/logo/CCTV第一剧场.png" group-title="央视频道", CCTV第一剧场
-https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-id="209" tvg-logo="https://tb.zbds.top/logo/CCTV15.png" group-title="央视频道", CCTV15
 http://58.57.40.22:9901/tsfile/live/1015_1.m3u8
-#EXTINF:-1 tvg-name="CCTV17" tvg-id="29" tvg-logo="https://tb.zbds.top/logo/CCTV17.png" group-title="央视频道", CCTV17
-http://120.238.94.10:9901/tsfile/live/1048_1.m3u8
-#EXTINF:-1 tvg-name="中央电视塔东" tvg-id="中央电视塔东" tvg-logo="https://tb.zbds.top/logo/中央电视塔东.png" group-title="直播中国", 中央电视塔东
-https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8
+#EXTINF:-1 tvg-name="CCTV第一剧场" tvg-id="CCTV第一剧场" tvg-logo="https://tb.zbds.top/logo/CCTV第一剧场.png" group-title="央视频道", CCTV第一剧场
+https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8
+#EXTINF:-1 tvg-name="CCTV17" tvg-id="135" tvg-logo="https://tb.zbds.top/logo/CCTV17.png" group-title="央视频道", CCTV17
+http://58.57.40.22:9901/tsfile/live/0019_1.m3u8
+#EXTINF:-1 tvg-name="CCTV央视台球" tvg-id="CCTV央视台球" tvg-logo="https://tb.zbds.top/logo/CCTV央视台球.png" group-title="央视频道", CCTV央视台球
+https://epg.pw/stream/25677ac2e8c1f7c3dd6359c43eb5f0f54efb3f5c11f9dda18d01b3e0308ed017.m3u8
 #EXTINF:-1 tvg-name="中央电视塔南" tvg-id="中央电视塔南" tvg-logo="https://tb.zbds.top/logo/中央电视塔南.png" group-title="直播中国", 中央电视塔南
 https://gcalic.v.myalicdn.com/gc/ztn_1/index.m3u8
+#EXTINF:-1 tvg-name="中央电视塔东" tvg-id="中央电视塔东" tvg-logo="https://tb.zbds.top/logo/中央电视塔东.png" group-title="直播中国", 中央电视塔东
+https://gcalic.v.myalicdn.com/gc/ztd_1/index.m3u8
