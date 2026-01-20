@@ -1,11 +1,11 @@
 ## 📡 直播源地址
 
-最后更新: 2026-01-19 01:36:08
+最后更新: 2026-01-20 01:29:23
 
 ### ✅ 已验证列表
 - **完整列表**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u)
-- 有效频道: 886 个
-- 有效性: 45.4%
+- 有效频道: 870 个
+- 有效性: 46.1%
 
 ### 📺 分类频道
 - **央视**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/cctv.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/cctv.m3u) (55个)
@@ -14,9 +14,9 @@
 - **国际**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/international.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/international.m3u) (0个)
 
 ### 📊 统计信息
-- 总频道: 1950 个
-- 验证耗时: 451.61 秒
-- 更新时间: 2026-01-19T01:36:08.363289
+- 总频道: 1887 个
+- 验证耗时: 315.51 秒
+- 更新时间: 2026-01-20T01:29:23.962212
 
 ---
 
