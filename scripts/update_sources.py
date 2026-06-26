@@ -537,7 +537,8 @@ class IPTVUpdater:
 
         # ── 8. 分离景区慢直播 ──
         webcam_channels = [ch for ch in valid_channels if self.is_webcam_content(ch)]
-        tv_channels = [ch for ch in valid_channels if ch not in set(webcam_channels)]
+        webcam_urls = {ch['url'] for ch in webcam_channels}
+        tv_channels = [ch for ch in valid_channels if ch['url'] not in webcam_urls]
 
         self.log(f"景区慢直播: {len(webcam_channels)}个, 电视频道: {len(tv_channels)}个")
         self.save_m3u('outputs/webcam.m3u', webcam_channels, "景区慢直播")
