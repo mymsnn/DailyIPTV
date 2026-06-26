@@ -5,3 +5,10 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+*.pyo
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+*.swp
+*.swo

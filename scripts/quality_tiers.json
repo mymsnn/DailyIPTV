@@ -1,0 +1,58 @@
+{
+    "_comment": "质量分级体系 - 对直播源进行A/B/C/F四级评分",
+
+    "tiers": {
+        "A": {
+            "label": "官方CDN",
+            "description": "来自广播机构官方CDN，内容验证通过",
+            "score_range": [8, 10],
+            "output_file": "outputs/tier_a.m3u"
+        },
+        "B": {
+            "label": "可靠聚合源",
+            "description": "已知稳定的第三方聚合或未识别但验证通过的源",
+            "score_range": [5, 7],
+            "output_file": "outputs/tier_b.m3u"
+        },
+        "C": {
+            "label": "低置信度",
+            "description": "裸IP、小众域名或token可能过期的源",
+            "score_range": [1, 4],
+            "output_file": "outputs/tier_c.m3u"
+        },
+        "F": {
+            "label": "不合格",
+            "description": "已拦截、非直播内容或无法连接",
+            "score_range": [0, 0],
+            "output_file": null
+        }
+    },
+
+    "scoring": {
+        "base_score": 5,
+        "_comment_base": "起始5分（中性）",
+
+        "bonuses": {
+            "domain_in_trustlist": 3,
+            "content_verified_hls": 2,
+            "content_verified_generic": 1,
+            "cdn_like_hostname": 1,
+            "https_enabled": 1,
+            "_comment": "domain_in_trustlist: 官方CDN+3。content_verified_hls: m3u8内容验证通过+2。content_verified_generic: 非HLS但内容头正确+1。cdn_like_hostname: 域名含cdn/live/stream等+1。https_enabled: 使用HTTPS+1"
+        },
+
+        "penalties": {
+            "domain_in_blocklist_exact": -5,
+            "domain_in_blocklist_suffix": -2,
+            "raw_ip_address": -2,
+            "has_expired_token_params": -3,
+            "static_file_extension": -5,
+            "non_tv_content": -3,
+            "non_hls_protocol": -1,
+            "_comment": "domain_in_blocklist_exact: 已知私人代理-5。suffix: 高风险TLD-2。raw_ip: 裸IP-2。expired_token: 含GuardEncType/txSecret等临时token-3。static_file: .mp4等静态文件-5。non_tv: 景区/慢直播/点播-3。non_hls: RTMP/RTSP等非HTTP协议-1"
+        },
+
+        "clamp_range": [0, 10],
+        "_comment_clamp": "最终分数限制在0-10之间"
+    }
+}

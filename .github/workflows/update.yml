@@ -8,45 +8,41 @@ on:
 jobs:
   update-sources:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
-      
+
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-version: '3.9'
-        
+        python-version: '3.11'
+
     - name: Install dependencies
       run: pip install requests
-      
+
     - name: Update live sources
       run: python scripts/update_sources.py
-      
+
     - name: Update VOD sources
       run: python scripts/update_vod_sources.py
-      
+
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        
-        # 确保 logs 目录存在，即使为空
+
         mkdir -p logs
-        
-        # 添加具体的文件，而不是使用通配符
+
         git add outputs/
         git add README.md
-        
-        # 只添加 logs 目录中实际存在的文件
+
         if [ -n "$(ls -A logs 2>/dev/null)" ]; then
           git add logs/
         fi
-        
-        # 检查是否有变更需要提交
+
         if git diff --staged --quiet; then
           echo "没有文件需要提交"
         else

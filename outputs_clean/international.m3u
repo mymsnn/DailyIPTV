@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTENC: UTF-8
+# Generated: 2026-06-26 14:07:15 UTC
+# Title: 国际频道
+# Total Channels: 1
+# Cleaned: removed high-risk domains + HTML fakes
+
+#EXTINF:-1 group-title="国际频道",Newsmax
+http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
