@@ -1,9 +1,9 @@
 #EXTM3U
 #EXTENC: UTF-8
-# Generated: 2026-07-08 02:31:28 UTC
-# Updated: 2026-07-08 02:31:28
+# Generated: 2026-07-09 02:44:28 UTC
+# Updated: 2026-07-09 02:44:28
 # Title: C级 — 低置信度
-# Total Channels: 20
+# Total Channels: 21
 # For personal testing only.
 
 #EXTINF:-1 tvg-name="番禺综合" tvg-logo="https://live.fanmingming.cn/tv/番禺综合.png" group-title="☘️广东频道",番禺综合 # Tier:C Score:1
@@ -12,10 +12,10 @@ http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
 https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxMjNfMF8z_b_B3dde97f36273f04403d4dc5eec611a35.mp4
 #EXTINF:-1 tvg-id="1993年春晚" tvg-name="1993年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1993年春晚 # Tier:C Score:2
 https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4
-#EXTINF:-1 tvg-id="1995年春晚" tvg-name="1995年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1995年春晚 # Tier:C Score:2
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4
 #EXTINF:-1 tvg-id="1996年春晚" tvg-name="1996年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1996年春晚 # Tier:C Score:2
 https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxNTJfMF8z_b_Bd841eae10ab1c9955ef55fbedfae6c45.mp4
+#EXTINF:-1 tvg-id="1995年春晚" tvg-name="1995年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",1995年春晚 # Tier:C Score:2
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4
 #EXTINF:-1 tvg-id="2000年春晚" tvg-name="2000年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2000年春晚 # Tier:C Score:2
 https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxMTNfMF8z_b_Bdddf4e7ef0ff6cfd477857bb40e78419.mp4
 #EXTINF:-1 tvg-id="2001年春晚" tvg-name="2001年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2001年春晚 # Tier:C Score:2
@@ -26,10 +26,10 @@ https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTl
 https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxNDdfMF8z_b_Ba6271d10b7e6cfae83759033a091f257.mp4
 #EXTINF:-1 tvg-id="2004年春晚" tvg-name="2004年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2004年春晚 # Tier:C Score:2
 https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxOTVfMF8z_b_B86c4430b82ff5a7f4e8132f6ee558536.mp4
-#EXTINF:-1 tvg-id="2006年春晚" tvg-name="2006年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2006年春晚 # Tier:C Score:2
-https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyNzlfMF8z_b_Bbc3703fc331dc994c50859c19aad28ff.mp4
 #EXTINF:-1 tvg-id="2005年春晚" tvg-name="2005年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2005年春晚 # Tier:C Score:2
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMzhfMF8z_b_B35ad7cc86aec8fc9e5ddfb31fc7bed63.mp4
+#EXTINF:-1 tvg-id="2006年春晚" tvg-name="2006年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2006年春晚 # Tier:C Score:2
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyNzlfMF8z_b_Bbc3703fc331dc994c50859c19aad28ff.mp4
 #EXTINF:-1 tvg-id="2007年春晚" tvg-name="2007年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2007年春晚 # Tier:C Score:2
 https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzMjNfMF8z_b_B00b069c7899976459ceeaa99353dfefe.mp4
 #EXTINF:-1 tvg-id="2009年春晚" tvg-name="2009年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2009年春晚 # Tier:C Score:2
@@ -42,6 +42,8 @@ https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTl
 https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTNfNDAzMDAxOTlfOTI4OTY2ODAzNjlfMF8z_b_Bdee65c77f9e7b2120a185c919dad81d2.mp4
 #EXTINF:-1 tvg-id="2018年春晚" tvg-name="2018年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="春晚频道",2018年春晚 # Tier:C Score:2
 https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTlfOTI4OTY2ODE2MTBfMF8z_b_B11a778e34390a21de42d407e94f45b91.mp4
+#EXTINF:-1 tvg-name="CCTV世界地理" tvg-id="世界地理" tvg-logo="https://tb.zbds.top/logo/CCTV世界地理.png" group-title="央视频道", CCTV世界地理 # Tier:C Score:4
+https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710
 #EXTINF:-1 tvg-name="洛阳文旅" tvg-id="洛阳文旅" tvg-logo="https://tb.zbds.top/logo/洛阳文旅.png" group-title="地方频道", 洛阳文旅 # Tier:C Score:2
 http://devlivepull.migucloud.com/live/Q081CD54_C0.flv
 #EXTINF:-1 tvg-name="洛阳科教" tvg-id="洛阳科教" tvg-logo="https://tb.zbds.top/logo/洛阳科教.png" group-title="地方频道", 洛阳科教 # Tier:C Score:2

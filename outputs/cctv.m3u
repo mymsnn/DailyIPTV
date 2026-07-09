@@ -1,52 +1,56 @@
 #EXTM3U
 #EXTENC: UTF-8
-# Generated: 2026-07-08 02:31:28 UTC
-# Updated: 2026-07-08 02:31:28
+# Generated: 2026-07-09 02:44:28 UTC
+# Updated: 2026-07-09 02:44:28
 # Title: 央视频道
-# Total Channels: 22
+# Total Channels: 24
 # For personal testing only.
 
-#EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="央视频道",CGTN记录 # Tier:A Score:10
-https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
-#EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.cn/tv/CGTN俄语.png" group-title="央视频道",CGTN俄语 # Tier:A Score:10
-http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8
 #EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="央视频道",CGTN英语 # Tier:A Score:10
 http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
+#EXTINF:-1 tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="央视频道",CGTN记录 # Tier:A Score:10
+https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 #EXTINF:-1 tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.cn/tv/CGTN法语.png" group-title="央视频道",CGTN法语 # Tier:A Score:10
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
+#EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.cn/tv/CGTN俄语.png" group-title="央视频道",CGTN俄语 # Tier:A Score:10
+http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-id="194" tvg-logo="https://tb.zbds.top/logo/CCTV4.png" group-title="央视频道", CCTV4 # Tier:A Score:8
 https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-id="CCTV13" tvg-logo="https://tb.zbds.top/logo/CCTV13.png" group-title="央视频道", CCTV13 # Tier:A Score:10
 http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV1.png" group-title="备用频道",CCTV1 # Tier:B Score:5
 http://112.27.235.94:8000/hls/1/index.m3u8
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV3.png" group-title="备用频道",CCTV3 # Tier:B Score:5
-http://112.27.235.94:8000/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV2.png" group-title="备用频道",CCTV2 # Tier:B Score:5
 http://112.27.235.94:8000/hls/2/index.m3u8
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV5.png" group-title="备用频道",CCTV5 # Tier:B Score:5
-http://112.27.235.94:8000/hls/5/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV3.png" group-title="备用频道",CCTV3 # Tier:B Score:5
+http://112.27.235.94:8000/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV5+.png" group-title="备用频道",CCTV5+ # Tier:B Score:5
 http://112.27.235.94:8000/hls/6/index.m3u8
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV8.png" group-title="备用频道",CCTV8 # Tier:B Score:5
-http://112.27.235.94:8000/hls/9/index.m3u8
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV9.png" group-title="备用频道",CCTV9 # Tier:B Score:5
-http://112.27.235.94:8000/hls/10/index.m3u8
-#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV7.png" group-title="备用频道",CCTV7 # Tier:B Score:5
-http://112.27.235.94:8000/hls/8/index.m3u8
-#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV11.png" group-title="备用频道",CCTV11 # Tier:B Score:5
-http://112.27.235.94:8000/hls/12/index.m3u8
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV10.png" group-title="备用频道",CCTV10 # Tier:B Score:5
-http://112.27.235.94:8000/hls/11/index.m3u8
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV12.png" group-title="备用频道",CCTV12 # Tier:B Score:5
-http://112.27.235.94:8000/hls/13/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV5.png" group-title="备用频道",CCTV5 # Tier:B Score:5
+http://112.27.235.94:8000/hls/5/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV6.png" group-title="备用频道",CCTV6 # Tier:B Score:5
 http://112.27.235.94:8000/hls/7/index.m3u8
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV14.png" group-title="备用频道",CCTV14 # Tier:B Score:5
-http://112.27.235.94:8000/hls/15/index.m3u8
-#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="备用频道",CGTN # Tier:B Score:5
-http://112.27.235.94:8000/hls/17/index.m3u8
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV7.png" group-title="备用频道",CCTV7 # Tier:B Score:5
+http://112.27.235.94:8000/hls/8/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV9.png" group-title="备用频道",CCTV9 # Tier:B Score:5
+http://112.27.235.94:8000/hls/10/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV8.png" group-title="备用频道",CCTV8 # Tier:B Score:5
+http://112.27.235.94:8000/hls/9/index.m3u8
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV10.png" group-title="备用频道",CCTV10 # Tier:B Score:5
+http://112.27.235.94:8000/hls/11/index.m3u8
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV11.png" group-title="备用频道",CCTV11 # Tier:B Score:5
+http://112.27.235.94:8000/hls/12/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV12.png" group-title="备用频道",CCTV12 # Tier:B Score:5
+http://112.27.235.94:8000/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV15.png" group-title="备用频道",CCTV15 # Tier:B Score:5
 http://112.27.235.94:8000/hls/16/index.m3u8
-#EXTINF:-1 tvg-name="CCTV17" tvg-id="108" tvg-logo="https://tb.zbds.top/logo/CCTV17.png" group-title="央视频道", CCTV17 # Tier:B Score:5
-http://183.11.239.36:808/hls/35/index.m3u8
+#EXTINF:-1 tvg-name="CGTN" tvg-logo="https://live.fanmingming.cn/tv/CGTN.png" group-title="备用频道",CGTN # Tier:B Score:5
+http://112.27.235.94:8000/hls/17/index.m3u8
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV14.png" group-title="备用频道",CCTV14 # Tier:B Score:5
+http://112.27.235.94:8000/hls/15/index.m3u8
+#EXTINF:-1 tvg-name="CCTV16" tvg-id="69" tvg-logo="https://tb.zbds.top/logo/CCTV16.png" group-title="央视频道", CCTV16 # Tier:B Score:5
+http://183.11.239.36:808/hls/169/index.m3u8
+#EXTINF:-1 tvg-name="CCTV17" tvg-id="120" tvg-logo="https://tb.zbds.top/logo/CCTV17.png" group-title="央视频道", CCTV17 # Tier:B Score:5
+http://222.169.85.8:9901/tsfile/live/0007_1.m3u8
+#EXTINF:-1 tvg-name="CCTV世界地理" tvg-id="世界地理" tvg-logo="https://tb.zbds.top/logo/CCTV世界地理.png" group-title="央视频道", CCTV世界地理 # Tier:C Score:4
+https://shcm-stream-cf1.stream.264788.xyz/cms001/ch00000090990000001620/index.m3u8?streamid=8a034b40397504e25b3775c772237996&streamkey=01vY5fRxC8VyKg4oq30vfikHXTCAKySLP29l6OG91kQlzDttHgzNLkUw5kivm3PfNsVHJv5FgdsPBYFYI2IWpt7tfRCuFHqLT2pvX67ubMds8jl2DHtvOh0&token=1775754349-4f33f4f84a4abeba-0-91687dc8c9325092efa1d00f330d2710
