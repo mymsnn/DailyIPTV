@@ -1,14 +1,12 @@
 #EXTM3U
 #EXTENC: UTF-8
-# Generated: 2026-07-31 02:36:24 UTC
-# Updated: 2026-07-31 02:36:24
+# Generated: 2026-08-01 02:37:27 UTC
+# Updated: 2026-08-01 02:37:27
 # Title: 景区慢直播
-# Total Channels: 3
+# Total Channels: 2
 # For personal testing only.
 
 #EXTINF:-1 tvg-name="熊猫直播" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/熊猫直播.png" group-title="央视频道",熊猫直播 # Tier:B Score:6
 https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
 #EXTINF:-1 tvg-name="长白山电视台" tvg-id="长白山电视台" tvg-logo="https://tb.zbds.top/logo/长白山电视台.png" group-title="地方频道", 长白山电视台 # Tier:A Score:10
 http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
-#EXTINF:-1 tvg-name="新疆天山" tvg-id="新疆天山" tvg-logo="https://tb.zbds.top/logo/新疆天山.png" group-title="直播中国", 新疆天山 # Tier:B Score:5
-http://gctxyc.liveplay.myqcloud.com/gc/xjtcdhsz_1/index.m3u8
