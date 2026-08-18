@@ -1,23 +1,23 @@
 ## 📡 直播源地址
 
-最后更新: 2026-08-17 01:09:28
+最后更新: 2026-08-18 01:07:25
 
 ### 🏆 质量分级
-- **⭐ A级 (官方CDN)**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_a.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_a.m3u) (84个)
-- **✅ B级 (可靠聚合)**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_b.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_b.m3u) (134个)
+- **⭐ A级 (官方CDN)**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_a.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_a.m3u) (75个)
+- **✅ B级 (可靠聚合)**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_b.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_b.m3u) (93个)
 - **⚠️ C级 (低置信度)**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_c.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_c.m3u) (20个)
 
 ### ✅ 综合验证列表
 - **完整列表 (A+B+C)**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/full_validated.m3u)
-- 有效频道: 238 个
-- 有效率: 28.4%
+- 有效频道: 188 个
+- 有效率: 22.4%
 
 ### 📺 分类频道
-- **央视**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/cctv.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/cctv.m3u) (20个)
+- **央视**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/cctv.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/cctv.m3u) (21个)
 - **卫视**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/satellite.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/satellite.m3u) (57个)
-- **地方台**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/local.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/local.m3u) (71个)
+- **地方台**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/local.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/local.m3u) (52个)
 - **国际**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/international.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/international.m3u) (14个)
-- **其他**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/other.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/other.m3u) (76个)
+- **其他**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/other.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/other.m3u) (44个)
 
 ### 🔧 特殊列表
 - **IPv6 源**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/ipv6.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/ipv6.m3u) (93个，需IPv6网络)
@@ -26,11 +26,11 @@
 
 ### 📊 统计信息
 - 总采集: 1364 个
-- 内容验证通过: 267 个
+- 内容验证通过: 215 个
 - IPv6保留: 93 个
-- A级: 84 | B级: 134 | C级: 20
-- 验证耗时: 475.81 秒
-- 更新时间: 2026-08-17T01:09:28.566693
+- A级: 75 | B级: 93 | C级: 20
+- 验证耗时: 465.46 秒
+- 更新时间: 2026-08-18T01:07:25.021213
 
 ---
 
