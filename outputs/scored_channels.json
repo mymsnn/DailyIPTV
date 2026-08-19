@@ -1,37 +1,5 @@
 [
   {
-    "name": "浙江新闻",
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "ali-m-l.cztv.com",
-    "category": "local"
-  },
-  {
-    "name": "浙江教科",
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "ali-m-l.cztv.com",
-    "category": "local"
-  },
-  {
-    "name": "浙江民生",
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "ali-m-l.cztv.com",
-    "category": "local"
-  },
-  {
-    "name": "浙江国际",
-    "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "ali-m-l.cztv.com",
-    "category": "local"
-  },
-  {
     "name": "浙江钱江",
     "url": "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8",
     "tier": "A",
@@ -46,6 +14,14 @@
     "score": 10,
     "domain": "ali-m-l.cztv.com",
     "category": "kids"
+  },
+  {
+    "name": "浙江民生",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "ali-m-l.cztv.com",
+    "category": "local"
   },
   {
     "name": "浙江经济",
@@ -64,6 +40,46 @@
     "category": "documentary"
   },
   {
+    "name": "浙江教科",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "ali-m-l.cztv.com",
+    "category": "local"
+  },
+  {
+    "name": "浙江国际",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "ali-m-l.cztv.com",
+    "category": "local"
+  },
+  {
+    "name": "浙江新闻",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "ali-m-l.cztv.com",
+    "category": "local"
+  },
+  {
+    "name": "苏州4K",
+    "url": "https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "live-auth.51kandianshi.com",
+    "category": "4k"
+  },
+  {
+    "name": "东方卫视4K",
+    "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "bp-resource-dfl.bestv.cn",
+    "category": "4k"
+  },
+  {
     "name": "河北卫视",
     "url": "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8",
     "tier": "A",
@@ -80,28 +96,12 @@
     "category": "4k"
   },
   {
-    "name": "苏州4K",
-    "url": "https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "live-auth.51kandianshi.com",
-    "category": "4k"
-  },
-  {
     "name": "南国都市4K",
     "url": "https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce492748481415b6dfa&txTime=1903e7b17de",
     "tier": "A",
     "score": 9,
     "domain": "tencentplay.gztv.com",
     "category": "4k"
-  },
-  {
-    "name": "CGTN俄语",
-    "url": "http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "russian-livews.cgtn.com",
-    "category": "cctv"
   },
   {
     "name": "CGTN英语",
@@ -128,12 +128,12 @@
     "category": "cctv"
   },
   {
-    "name": "山东教育",
-    "url": "https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8",
+    "name": "CGTN俄语",
+    "url": "http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8",
     "tier": "A",
-    "score": 9,
-    "domain": "test1.live.sdetv.com.cn",
-    "category": "satellite"
+    "score": 10,
+    "domain": "russian-livews.cgtn.com",
+    "category": "cctv"
   },
   {
     "name": "浙江卫视",
@@ -141,6 +141,14 @@
     "tier": "A",
     "score": 10,
     "domain": "ali-m-l.cztv.com",
+    "category": "satellite"
+  },
+  {
+    "name": "山东教育",
+    "url": "https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8",
+    "tier": "A",
+    "score": 9,
+    "domain": "test1.live.sdetv.com.cn",
     "category": "satellite"
   },
   {
@@ -192,8 +200,8 @@
     "category": "local"
   },
   {
-    "name": "象山新闻综合",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8",
+    "name": "文成新闻综合",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8",
     "tier": "A",
     "score": 10,
     "domain": "l.cztvcloud.com",
@@ -208,16 +216,16 @@
     "category": "local"
   },
   {
-    "name": "文成新闻综合",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXwencheng1/720p.m3u8",
+    "name": "云和新闻综合",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8",
     "tier": "A",
     "score": 10,
     "domain": "l.cztvcloud.com",
     "category": "local"
   },
   {
-    "name": "云和新闻综合",
-    "url": "http://l.cztvcloud.com/channels/lantian/SXyunhe1/720p.m3u8",
+    "name": "象山新闻综合",
+    "url": "http://l.cztvcloud.com/channels/lantian/SXxiangshan1/720p.m3u8",
     "tier": "A",
     "score": 10,
     "domain": "l.cztvcloud.com",
@@ -229,6 +237,30 @@
     "tier": "A",
     "score": 10,
     "domain": "l.cztvcloud.com",
+    "category": "local"
+  },
+  {
+    "name": "剑阁综合",
+    "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8",
+    "tier": "A",
+    "score": 8,
+    "domain": "m3u8.channel.dzsm.com",
+    "category": "local"
+  },
+  {
+    "name": "广元公共",
+    "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8",
+    "tier": "A",
+    "score": 8,
+    "domain": "m3u8.channel.dzsm.com",
+    "category": "local"
+  },
+  {
+    "name": "广元综合",
+    "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8",
+    "tier": "A",
+    "score": 8,
+    "domain": "m3u8.channel.dzsm.com",
     "category": "local"
   },
   {
@@ -272,6 +304,14 @@
     "category": "local"
   },
   {
+    "name": "朝天综合",
+    "url": "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8",
+    "tier": "A",
+    "score": 8,
+    "domain": "m3u8.channel.dzsm.com",
+    "category": "local"
+  },
+  {
     "name": "广州新闻",
     "url": "http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3",
     "tier": "A",
@@ -296,6 +336,14 @@
     "category": "local"
   },
   {
+    "name": "苏州社会经济",
+    "url": "https://live-auth.51kandianshi.com/szgd/csztv2.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "live-auth.51kandianshi.com",
+    "category": "local"
+  },
+  {
     "name": "苏州新闻综合",
     "url": "https://live-auth.51kandianshi.com/szgd/csztv1.m3u8",
     "tier": "A",
@@ -304,11 +352,19 @@
     "category": "local"
   },
   {
-    "name": "苏州社会经济",
-    "url": "https://live-auth.51kandianshi.com/szgd/csztv2.m3u8",
+    "name": "东莞新闻综合",
+    "url": "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8",
     "tier": "A",
     "score": 10,
-    "domain": "live-auth.51kandianshi.com",
+    "domain": "stream.sun0769.com",
+    "category": "local"
+  },
+  {
+    "name": "东莞生活资讯",
+    "url": "https://stream.sun0769.com/dgrtv1/mp4tv2_800/index.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "stream.sun0769.com",
     "category": "local"
   },
   {
@@ -325,22 +381,6 @@
     "tier": "A",
     "score": 10,
     "domain": "live-auth.51kandianshi.com",
-    "category": "local"
-  },
-  {
-    "name": "东莞生活资讯",
-    "url": "https://stream.sun0769.com/dgrtv1/mp4tv2_800/index.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "stream.sun0769.com",
-    "category": "local"
-  },
-  {
-    "name": "东莞新闻综合",
-    "url": "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "stream.sun0769.com",
     "category": "local"
   },
   {
@@ -384,8 +424,8 @@
     "category": "local"
   },
   {
-    "name": "哈尔滨都市咨询",
-    "url": "http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild",
+    "name": "哈尔滨新闻综合",
+    "url": "http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild",
     "tier": "A",
     "score": 10,
     "domain": "stream.hrbtv.net",
@@ -400,14 +440,6 @@
     "category": "local"
   },
   {
-    "name": "哈尔滨娱乐",
-    "url": "http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild",
-    "tier": "A",
-    "score": 10,
-    "domain": "stream.hrbtv.net",
-    "category": "local"
-  },
-  {
     "name": "哈尔滨影视",
     "url": "http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild",
     "tier": "A",
@@ -416,19 +448,19 @@
     "category": "local"
   },
   {
-    "name": "哈尔滨新闻综合",
-    "url": "http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild",
+    "name": "哈尔滨娱乐",
+    "url": "http://stream.hrbtv.net/ylpd/sd/live.m3u8?zheild",
     "tier": "A",
     "score": 10,
     "domain": "stream.hrbtv.net",
     "category": "local"
   },
   {
-    "name": "七台河民生社教",
-    "url": "http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8",
+    "name": "哈尔滨都市咨询",
+    "url": "http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild",
     "tier": "A",
     "score": 10,
-    "domain": "live.qthnews.org.cn",
+    "domain": "stream.hrbtv.net",
     "category": "local"
   },
   {
@@ -440,16 +472,24 @@
     "category": "local"
   },
   {
-    "name": "1988年春晚",
-    "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8",
+    "name": "七台河民生社教",
+    "url": "http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "live.qthnews.org.cn",
+    "category": "local"
+  },
+  {
+    "name": "1987年春晚",
+    "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8",
     "tier": "A",
     "score": 8,
     "domain": "txmov2.a.kwimgs.com",
     "category": "other"
   },
   {
-    "name": "1987年春晚",
-    "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8",
+    "name": "1988年春晚",
+    "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5216575810935394655_hlsb.m3u8",
     "tier": "A",
     "score": 8,
     "domain": "txmov2.a.kwimgs.com",
@@ -464,19 +504,19 @@
     "category": "other"
   },
   {
-    "name": "CBC News",
-    "url": "https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276",
-    "tier": "A",
-    "score": 8,
-    "domain": "dbrb49pjoymg4.cloudfront.net",
-    "category": "international"
-  },
-  {
     "name": "CNA",
     "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
     "tier": "A",
     "score": 8,
     "domain": "d2e1asnsl7br7b.cloudfront.net",
+    "category": "international"
+  },
+  {
+    "name": "CBC News",
+    "url": "https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991276",
+    "tier": "A",
+    "score": 8,
+    "domain": "dbrb49pjoymg4.cloudfront.net",
     "category": "international"
   },
   {
@@ -504,14 +544,6 @@
     "category": "international"
   },
   {
-    "name": "Arirang",
-    "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "amdlive-ch01-ctnd-com.akamaized.net",
-    "category": "international"
-  },
-  {
     "name": "2024年春晚",
     "url": "https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8",
     "tier": "A",
@@ -520,27 +552,19 @@
     "category": "other"
   },
   {
+    "name": "Arirang",
+    "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "amdlive-ch01-ctnd-com.akamaized.net",
+    "category": "international"
+  },
+  {
     "name": "RT News（英语国际）",
     "url": "https://rt-glb.rttv.com/dvr/rtnews/playlist_4500Kb.m3u8",
     "tier": "A",
     "score": 8,
     "domain": "rt-glb.rttv.com",
-    "category": "international"
-  },
-  {
-    "name": "RT Español（西语）",
-    "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8",
-    "tier": "A",
-    "score": 8,
-    "domain": "rt-esp.rttv.com",
-    "category": "international"
-  },
-  {
-    "name": "RT Arabic（阿语）",
-    "url": "https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "rt-arb.rttv.com",
     "category": "international"
   },
   {
@@ -552,19 +576,19 @@
     "category": "international"
   },
   {
+    "name": "RT Español（西语）",
+    "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist_4500Kb.m3u8",
+    "tier": "A",
+    "score": 8,
+    "domain": "rt-esp.rttv.com",
+    "category": "international"
+  },
+  {
     "name": "RT DE（德语）",
     "url": "https://rt-ger.rttv.com/dvr/rtdeutsch/playlist_4500Kb.m3u8",
     "tier": "A",
     "score": 8,
     "domain": "rt-ger.rttv.com",
-    "category": "international"
-  },
-  {
-    "name": "Newsmax",
-    "url": "http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
-    "tier": "A",
-    "score": 10,
-    "domain": "nmxlive.akamaized.net",
     "category": "international"
   },
   {
@@ -576,12 +600,20 @@
     "category": "international"
   },
   {
-    "name": "RT Doc-Русский（俄语纪录）",
-    "url": "https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8",
+    "name": "RT Arabic（阿语）",
+    "url": "https://rt-arb.rttv.com/dvr/rtarab/playlist_4500Kb.m3u8",
     "tier": "A",
     "score": 10,
-    "domain": "rt-doc.rttv.com",
-    "category": "documentary"
+    "domain": "rt-arb.rttv.com",
+    "category": "international"
+  },
+  {
+    "name": "Newsmax",
+    "url": "http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "nmxlive.akamaized.net",
+    "category": "international"
   },
   {
     "name": "RT Documentary（英语纪录）",
@@ -589,6 +621,14 @@
     "tier": "A",
     "score": 8,
     "domain": "rt-rtd.rttv.com",
+    "category": "documentary"
+  },
+  {
+    "name": "RT Doc-Русский（俄语纪录）",
+    "url": "https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8",
+    "tier": "A",
+    "score": 10,
+    "domain": "rt-doc.rttv.com",
     "category": "documentary"
   },
   {
@@ -608,14 +648,6 @@
     "category": "4k"
   },
   {
-    "name": "湖南卫视",
-    "url": "http://112.27.235.94:8000/hls/31/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
     "name": "海峡卫视",
     "url": "http://r.jdshipin.com/WtYt3",
     "tier": "B",
@@ -624,316 +656,20 @@
     "category": "satellite"
   },
   {
-    "name": "CCTV1",
-    "url": "http://112.27.235.94:8000/hls/1/index.m3u8",
+    "name": "香港卫视",
+    "url": "http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8",
     "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV2",
-    "url": "http://112.27.235.94:8000/hls/2/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV5+",
-    "url": "http://112.27.235.94:8000/hls/6/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV3",
-    "url": "http://112.27.235.94:8000/hls/3/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV4",
-    "url": "http://112.27.235.94:8000/hls/4/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV5",
-    "url": "http://112.27.235.94:8000/hls/5/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV6",
-    "url": "http://112.27.235.94:8000/hls/7/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV7",
-    "url": "http://112.27.235.94:8000/hls/8/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV8",
-    "url": "http://112.27.235.94:8000/hls/9/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV9",
-    "url": "http://112.27.235.94:8000/hls/10/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV12",
-    "url": "http://112.27.235.94:8000/hls/13/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV14",
-    "url": "http://112.27.235.94:8000/hls/15/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV10",
-    "url": "http://112.27.235.94:8000/hls/11/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV11",
-    "url": "http://112.27.235.94:8000/hls/12/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "CCTV15",
-    "url": "http://112.27.235.94:8000/hls/16/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "北京卫视",
-    "url": "http://112.27.235.94:8000/hls/27/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "上海卫视",
-    "url": "http://112.27.235.94:8000/hls/28/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "CCTV13",
-    "url": "http://112.27.235.94:8000/hls/14/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "广东卫视",
-    "url": "http://112.27.235.94:8000/hls/30/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "安徽卫视",
-    "url": "http://112.27.235.94:8000/hls/26/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "深圳卫视",
-    "url": "http://112.27.235.94:8000/hls/33/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "山东卫视",
-    "url": "http://112.27.235.94:8000/hls/34/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "四川卫视",
-    "url": "http://112.27.235.94:8000/hls/35/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "重庆卫视",
-    "url": "http://112.27.235.94:8000/hls/36/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "CGTN",
-    "url": "http://112.27.235.94:8000/hls/17/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "cctv"
-  },
-  {
-    "name": "河南卫视",
-    "url": "http://112.27.235.94:8000/hls/37/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "云南卫视",
-    "url": "http://112.27.235.94:8000/hls/40/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "天津卫视",
-    "url": "http://112.27.235.94:8000/hls/42/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "陕西卫视",
-    "url": "http://112.27.235.94:8000/hls/43/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "东南卫视",
-    "url": "http://112.27.235.94:8000/hls/38/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "江西卫视",
-    "url": "http://112.27.235.94:8000/hls/44/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "山西卫视",
-    "url": "http://112.27.235.94:8000/hls/45/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "贵州卫视",
-    "url": "http://112.27.235.94:8000/hls/46/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "辽宁卫视",
-    "url": "http://112.27.235.94:8000/hls/47/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "黑龙江卫视",
-    "url": "http://112.27.235.94:8000/hls/48/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "内蒙古卫视",
-    "url": "http://112.27.235.94:8000/hls/49/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
+    "score": 7,
+    "domain": "webcast.hkstv.tv",
     "category": "satellite"
   },
   {
     "name": "重温经典",
-    "url": "http://112.27.235.94:8000/hls/50/index.m3u8",
+    "url": "http://8.138.7.223/tv/cwjd.php",
     "tier": "B",
     "score": 5,
-    "domain": "112.27.235.94",
-    "category": "local"
-  },
-  {
-    "name": "湖北卫视",
-    "url": "http://112.27.235.94:8000/hls/41/index.m3u8",
-    "tier": "B",
-    "score": 5,
-    "domain": "112.27.235.94",
-    "category": "satellite"
-  },
-  {
-    "name": "凤凰中文",
-    "url": "http://r.jdshipin.com/cCCzW",
-    "tier": "B",
-    "score": 7,
-    "domain": "r.jdshipin.com",
-    "category": "satellite"
+    "domain": "8.138.7.223",
+    "category": "other"
   },
   {
     "name": "凤凰香港",
@@ -944,16 +680,8 @@
     "category": "satellite"
   },
   {
-    "name": "澳视卫星",
-    "url": "http://r.jdshipin.com/QFhCq",
-    "tier": "B",
-    "score": 7,
-    "domain": "r.jdshipin.com",
-    "category": "satellite"
-  },
-  {
-    "name": "澳视澳门",
-    "url": "http://r.jdshipin.com/n2YZI",
+    "name": "凤凰中文",
+    "url": "http://r.jdshipin.com/cCCzW",
     "tier": "B",
     "score": 7,
     "domain": "r.jdshipin.com",
@@ -968,6 +696,30 @@
     "category": "satellite"
   },
   {
+    "name": "翡翠台",
+    "url": "http://r.jdshipin.com/qClQf",
+    "tier": "B",
+    "score": 7,
+    "domain": "r.jdshipin.com",
+    "category": "satellite"
+  },
+  {
+    "name": "澳视澳门",
+    "url": "http://r.jdshipin.com/n2YZI",
+    "tier": "B",
+    "score": 7,
+    "domain": "r.jdshipin.com",
+    "category": "satellite"
+  },
+  {
+    "name": "澳视卫星",
+    "url": "http://r.jdshipin.com/QFhCq",
+    "tier": "B",
+    "score": 7,
+    "domain": "r.jdshipin.com",
+    "category": "satellite"
+  },
+  {
     "name": "明珠台",
     "url": "http://r.jdshipin.com/ZQ4kN",
     "tier": "B",
@@ -976,24 +728,8 @@
     "category": "satellite"
   },
   {
-    "name": "翡翠台",
-    "url": "http://r.jdshipin.com/62WM7",
-    "tier": "B",
-    "score": 7,
-    "domain": "r.jdshipin.com",
-    "category": "satellite"
-  },
-  {
-    "name": "无线新闻",
-    "url": "http://r.jdshipin.com/CkuBd",
-    "tier": "B",
-    "score": 7,
-    "domain": "r.jdshipin.com",
-    "category": "satellite"
-  },
-  {
     "name": "TVB Plus",
-    "url": "http://r.jdshipin.com/ndGgS",
+    "url": "http://r.jdshipin.com/Nr5jq",
     "tier": "B",
     "score": 7,
     "domain": "r.jdshipin.com",
@@ -1002,6 +738,22 @@
   {
     "name": "华丽翡翠台",
     "url": "http://r.jdshipin.com/thuYX",
+    "tier": "B",
+    "score": 7,
+    "domain": "r.jdshipin.com",
+    "category": "satellite"
+  },
+  {
+    "name": "广东珠江",
+    "url": "http://r.jdshipin.com/sE5vO",
+    "tier": "B",
+    "score": 7,
+    "domain": "r.jdshipin.com",
+    "category": "satellite"
+  },
+  {
+    "name": "ViuTV",
+    "url": "http://r.jdshipin.com/TcKr2",
     "tier": "B",
     "score": 7,
     "domain": "r.jdshipin.com",
@@ -1024,8 +776,8 @@
     "category": "satellite"
   },
   {
-    "name": "广东珠江",
-    "url": "http://r.jdshipin.com/sE5vO",
+    "name": "无线新闻",
+    "url": "http://r.jdshipin.com/CkuBd",
     "tier": "B",
     "score": 7,
     "domain": "r.jdshipin.com",
@@ -1038,14 +790,6 @@
     "score": 7,
     "domain": "r.jdshipin.com",
     "category": "sports"
-  },
-  {
-    "name": "ViuTV",
-    "url": "http://r.jdshipin.com/TcKr2",
-    "tier": "B",
-    "score": 7,
-    "domain": "r.jdshipin.com",
-    "category": "satellite"
   },
   {
     "name": "澳门卫视",
@@ -1120,14 +864,6 @@
     "category": "satellite"
   },
   {
-    "name": "人间卫视",
-    "url": "http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u",
-    "tier": "B",
-    "score": 5,
-    "domain": "61.216.67.119",
-    "category": "satellite"
-  },
-  {
     "name": "八大戏剧台",
     "url": "http://61.221.215.25:8800/hls/39/index.m3u8",
     "tier": "B",
@@ -1136,16 +872,24 @@
     "category": "music_arts"
   },
   {
-    "name": "凤凰卫视台",
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhzw",
+    "name": "人间卫视",
+    "url": "http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u",
+    "tier": "B",
+    "score": 5,
+    "domain": "61.216.67.119",
+    "category": "satellite"
+  },
+  {
+    "name": "凤凰资讯台",
+    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx",
     "tier": "B",
     "score": 7,
     "domain": "php.jdshipin.com",
     "category": "satellite"
   },
   {
-    "name": "凤凰资讯台",
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhzx",
+    "name": "凤凰卫视台",
+    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=fhzw",
     "tier": "B",
     "score": 7,
     "domain": "php.jdshipin.com",
@@ -1168,6 +912,14 @@
     "category": "satellite"
   },
   {
+    "name": "RTHK31",
+    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31",
+    "tier": "B",
+    "score": 7,
+    "domain": "php.jdshipin.com",
+    "category": "satellite"
+  },
+  {
     "name": "RTHK32",
     "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32",
     "tier": "B",
@@ -1176,8 +928,8 @@
     "category": "satellite"
   },
   {
-    "name": "RTHK31",
-    "url": "http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk31",
+    "name": "Astro AOD",
+    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=aod",
     "tier": "B",
     "score": 7,
     "domain": "php.jdshipin.com",
@@ -1192,16 +944,16 @@
     "category": "satellite"
   },
   {
-    "name": "无线新闻台",
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=wxxw",
+    "name": "TVB娱乐新闻台",
+    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw",
     "tier": "B",
     "score": 7,
     "domain": "php.jdshipin.com",
     "category": "satellite"
   },
   {
-    "name": "TVB娱乐新闻台",
-    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw",
+    "name": "无线新闻台",
+    "url": "http://php.jdshipin.com/TVOD/iptv.php?id=wxxw",
     "tier": "B",
     "score": 7,
     "domain": "php.jdshipin.com",
@@ -1216,16 +968,16 @@
     "category": "kids"
   },
   {
-    "name": "倩女幽魂人间道",
-    "url": "http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8",
+    "name": "倩女幽魂妖魔道",
+    "url": "http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8",
     "tier": "B",
     "score": 7,
     "domain": "jsmov2.a.yximgs.com",
     "category": "movie"
   },
   {
-    "name": "倩女幽魂妖魔道",
-    "url": "http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8",
+    "name": "倩女幽魂人间道",
+    "url": "http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8",
     "tier": "B",
     "score": 7,
     "domain": "jsmov2.a.yximgs.com",
@@ -1280,6 +1032,142 @@
     "category": "local"
   },
   {
+    "name": "河南卫视",
+    "url": "http://1.94.31.214/php/hntv.php?id=hnws",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "satellite"
+  },
+  {
+    "name": "河南法治",
+    "url": "http://1.94.31.214/php/hntv.php?id=hmfz",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河南公共",
+    "url": "http://1.94.31.214/php/hntv.php?id=hngg",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河南电视剧",
+    "url": "http://1.94.31.214/php/hntv.php?id=hndsj",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河南都市",
+    "url": "http://1.94.31.214/php/hntv.php?id=hnds",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河南新闻",
+    "url": "http://1.94.31.214/php/hntv.php?id=hnxw",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河南乡村",
+    "url": "http://1.94.31.214/php/hntv.php?id=hnxc",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "武术世界",
+    "url": "http://1.94.31.214/php/hntv.php?id=wspd",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "睛彩中原",
+    "url": "http://1.94.31.214/php/hntv.php?id=jczy",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "文物宝库",
+    "url": "http://1.94.31.214/php/hntv.php?id=wwbk",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河南梨园",
+    "url": "http://1.94.31.214/php/hntv.php?id=hnly",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河北经济",
+    "url": "http://1.94.31.214/php/hebei.php?id=jjsh",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河北都市",
+    "url": "http://1.94.31.214/php/hebei.php?id=hbds",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河北影视",
+    "url": "http://1.94.31.214/php/hebei.php?id=hbys",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河北公共",
+    "url": "http://1.94.31.214/php/hebei.php?id=hbgg",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河北农民",
+    "url": "http://1.94.31.214/php/hebei.php?id=nmpd",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "local"
+  },
+  {
+    "name": "河北少儿",
+    "url": "http://1.94.31.214/php/hebei.php?id=sekj",
+    "tier": "B",
+    "score": 5,
+    "domain": "1.94.31.214",
+    "category": "kids"
+  },
+  {
     "name": "新闻咨询",
     "url": "http://112.46.105.20:8009/hls/18/index.m3u8",
     "tier": "B",
@@ -1312,16 +1200,16 @@
     "category": "local"
   },
   {
-    "name": "西安都市",
-    "url": "http://112.46.105.20:8009/hls/29/index.m3u8",
+    "name": "西安新闻",
+    "url": "http://112.46.105.20:8009/hls/28/index.m3u8",
     "tier": "B",
     "score": 5,
     "domain": "112.46.105.20",
     "category": "local"
   },
   {
-    "name": "西安新闻",
-    "url": "http://112.46.105.20:8009/hls/28/index.m3u8",
+    "name": "西安都市",
+    "url": "http://112.46.105.20:8009/hls/29/index.m3u8",
     "tier": "B",
     "score": 5,
     "domain": "112.46.105.20",
@@ -1344,8 +1232,16 @@
     "category": "local"
   },
   {
-    "name": "1905电影网（国内）",
-    "url": "http://8.138.7.223/tv/1905.php?id=LIVEOYY31H24H48NE",
+    "name": "湖南卫视4K",
+    "url": "http://8.138.7.223/tv/api.php?id=hnws4k",
+    "tier": "C",
+    "score": 4,
+    "domain": "8.138.7.223",
+    "category": "4k"
+  },
+  {
+    "name": "1905电影网",
+    "url": "http://8.138.7.223/tv/1905.php?id=LIVE8J4LTCXPI7QJ5",
     "tier": "C",
     "score": 4,
     "domain": "8.138.7.223",
@@ -1360,16 +1256,16 @@
     "category": "movie"
   },
   {
-    "name": "1905电影网",
-    "url": "http://8.138.7.223/tv/1905.php?id=LIVE8J4LTCXPI7QJ5",
+    "name": "1905电影网（国内）",
+    "url": "http://8.138.7.223/tv/1905.php?id=LIVEOYY31H24H48NE",
     "tier": "C",
     "score": 4,
     "domain": "8.138.7.223",
     "category": "movie"
   },
   {
-    "name": "1995年春晚",
-    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4",
+    "name": "1993年春晚",
+    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4",
     "tier": "C",
     "score": 2,
     "domain": "alimov2.a.kwimgs.com",
@@ -1384,14 +1280,6 @@
     "category": "other"
   },
   {
-    "name": "1993年春晚",
-    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4",
-    "tier": "C",
-    "score": 2,
-    "domain": "alimov2.a.kwimgs.com",
-    "category": "other"
-  },
-  {
     "name": "1996年春晚",
     "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxNTJfMF8z_b_Bd841eae10ab1c9955ef55fbedfae6c45.mp4",
     "tier": "C",
@@ -1400,8 +1288,8 @@
     "category": "other"
   },
   {
-    "name": "2001年春晚",
-    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMDFfMF8z_b_B70592cb7c4054e9cabb675e849bbf4bd.mp4",
+    "name": "1995年春晚",
+    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4",
     "tier": "C",
     "score": 2,
     "domain": "alimov2.a.kwimgs.com",
@@ -1416,22 +1304,6 @@
     "category": "other"
   },
   {
-    "name": "2003年春晚",
-    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTlfOTM2MTU0MTk1NDFfMF8z_b_B182749d2cd2ea9323639254af385f24b.mp4",
-    "tier": "C",
-    "score": 2,
-    "domain": "alimov2.a.kwimgs.com",
-    "category": "other"
-  },
-  {
-    "name": "2004年春晚",
-    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxOTVfMF8z_b_B86c4430b82ff5a7f4e8132f6ee558536.mp4",
-    "tier": "C",
-    "score": 2,
-    "domain": "alimov2.a.kwimgs.com",
-    "category": "other"
-  },
-  {
     "name": "2002年春晚",
     "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxNDdfMF8z_b_Ba6271d10b7e6cfae83759033a091f257.mp4",
     "tier": "C",
@@ -1440,8 +1312,24 @@
     "category": "other"
   },
   {
-    "name": "2007年春晚",
-    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzMjNfMF8z_b_B00b069c7899976459ceeaa99353dfefe.mp4",
+    "name": "2001年春晚",
+    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMDFfMF8z_b_B70592cb7c4054e9cabb675e849bbf4bd.mp4",
+    "tier": "C",
+    "score": 2,
+    "domain": "alimov2.a.kwimgs.com",
+    "category": "other"
+  },
+  {
+    "name": "2003年春晚",
+    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTlfOTM2MTU0MTk1NDFfMF8z_b_B182749d2cd2ea9323639254af385f24b.mp4",
+    "tier": "C",
+    "score": 2,
+    "domain": "alimov2.a.kwimgs.com",
+    "category": "other"
+  },
+  {
+    "name": "2005年春晚",
+    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMzhfMF8z_b_B35ad7cc86aec8fc9e5ddfb31fc7bed63.mp4",
     "tier": "C",
     "score": 2,
     "domain": "alimov2.a.kwimgs.com",
@@ -1456,8 +1344,16 @@
     "category": "other"
   },
   {
-    "name": "2005年春晚",
-    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMzhfMF8z_b_B35ad7cc86aec8fc9e5ddfb31fc7bed63.mp4",
+    "name": "2004年春晚",
+    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxOTVfMF8z_b_B86c4430b82ff5a7f4e8132f6ee558536.mp4",
+    "tier": "C",
+    "score": 2,
+    "domain": "alimov2.a.kwimgs.com",
+    "category": "other"
+  },
+  {
+    "name": "2007年春晚",
+    "url": "https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzMjNfMF8z_b_B00b069c7899976459ceeaa99353dfefe.mp4",
     "tier": "C",
     "score": 2,
     "domain": "alimov2.a.kwimgs.com",
