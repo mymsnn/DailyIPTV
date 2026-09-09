@@ -1,12 +1,12 @@
 #EXTM3U
 #EXTENC: UTF-8
-# Generated: 2026-09-08 03:00:04 UTC
-# Updated: 2026-09-08 03:00:04
+# Generated: 2026-09-09 03:00:35 UTC
+# Updated: 2026-09-09 03:00:35
 # Title: 景区慢直播
 # Total Channels: 2
 # For personal testing only.
 
-#EXTINF:-1 tvg-name="直播中国" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/直播中国.png" group-title="央视频道",直播中国 # Tier:A Score:9
-https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
 #EXTINF:-1 tvg-name="熊猫直播" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/熊猫直播.png" group-title="央视频道",熊猫直播 # Tier:B Score:6
 https://gcwbndali.v.myalicdn.com/gcwbnd/ipanda1000_2/index.m3u8
+#EXTINF:-1 tvg-name="直播中国" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/直播中国.png" group-title="央视频道",直播中国 # Tier:A Score:9
+https://gcalic.v.myalicdn.com/gc/wgw05_1/index.m3u8?contentid=2820180516001
