@@ -1,6 +1,6 @@
 ## 📡 直播源地址
 
-最后更新: 2026-10-18 02:58:25
+最后更新: 2026-10-19 03:11:23
 
 ### 🏆 质量分级
 - **⭐ A级 (官方CDN)**: [https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_a.m3u](https://raw.githubusercontent.com/mymsnn/DailyIPTV/main/outputs/tier_a.m3u) (81个)
@@ -29,8 +29,8 @@
 - 内容验证通过: 188 个
 - IPv6保留: 93 个
 - A级: 81 | B级: 57 | C级: 21
-- 验证耗时: 419.44 秒
-- 更新时间: 2026-10-18T02:58:25.484139
+- 验证耗时: 428.94 秒
+- 更新时间: 2026-10-19T03:11:23.585527
 
 ---
 
